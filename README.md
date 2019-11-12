@@ -16,6 +16,5 @@ Use a UART cable to send the values of a potentiometer to Processing, and use th
 ![alt text](media/CPtoPpic2.PNG)
 ![alt text](media/CPtoPpic3.PNG)
 ![alt text](media/CPtoPpic1.PNG)
-*GIF in media folder*
 ### Lessons & Methods
 In this assignment, I learned how to send data in bytes across a UART cable and convert that to an integer when in Processing.  In order to get the speedometer to accurately move, I mapped the potentiometer value to an angle (in radians) and then use the rotate () function to rotate the circle (and the line I had drawn in the circle) by that angle.  Additionally, I drew the line slightly below the center of the circle, in order to make it look more like a real speedometer.  I also mapped the angle to different color values based on the position of the line. 
