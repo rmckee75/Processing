@@ -47,6 +47,6 @@ void draw() {
       stroke(0, 0, 0);
       // line colored black
       line(0, 0, -141.421356237, 50);
-      println(angle);
+      println(myNum);
     }
     }
